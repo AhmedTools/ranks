@@ -1,0 +1,69 @@
+{
+"ranks": {
+	"member": {},
+	"king": {
+		"mute": True,
+		"delete": True,
+		"block": True,
+		"promote": True,
+		"warn": True,
+		"kick": True,
+		"ban": True,
+		"allowed_kick": {
+			"member","admin","manager","vip"
+		}
+	},
+	"admin": {
+		"mute": True,
+		"delete": True,
+		"block": True,
+		"kick": True,
+		"warn": True,
+		"ban": True,
+		"allowed_kick": {
+			"member","vip"
+		}
+	},
+	"manager": {
+		"mute": True,
+		"delete": True,
+		"block": True,
+		"kick": True,
+		"warn": True,
+		"ban": True,
+		"allowed_kick": {
+			"member","admin","vip",
+		}
+	},
+	"developer": {
+		"mute": True,
+		"delete": True,
+		"block": True,
+		"code": True,
+		"kick": True,
+		"promote": True,
+		"warn": True,
+		"customize": True,
+		"ban": True,
+		"allowed_kick": {
+			"member","admin","manager","vip","king"
+		}
+	},
+	"owner": {
+		"mute": True,
+		"delete": True,
+		"block": True,
+		"customize": True,
+		"warn": True,
+		"promote": True,
+		"ban": True,
+		"kick": True,
+		"allowed_kick": {
+			"member","admin","manager","vip","king"
+		}
+	},
+	"vip": {
+		"delete": True,
+		"ban": True,
+		"allowed_kick": {}
+}}}
