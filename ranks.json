@@ -2,68 +2,68 @@
 "ranks": {
 	"member": {},
 	"king": {
-		"mute": True,
-		"delete": True,
-		"block": True,
-		"promote": True,
-		"warn": True,
-		"kick": True,
-		"ban": True,
+		"mute": true,
+		"delete": true,
+		"block": true,
+		"promote": true,
+		"warn": true,
+		"kick": true,
+		"ban": true,
 		"allowed_kick": {
 			"member","admin","manager","vip"
 		}
 	},
 	"admin": {
-		"mute": True,
-		"delete": True,
-		"block": True,
-		"kick": True,
-		"warn": True,
-		"ban": True,
+		"mute": true,
+		"delete": true,
+		"block": true,
+		"kick": true,
+		"warn": true,
+		"ban": true,
 		"allowed_kick": {
 			"member","vip"
 		}
 	},
 	"manager": {
-		"mute": True,
-		"delete": True,
-		"block": True,
-		"kick": True,
-		"warn": True,
-		"ban": True,
+		"mute": true,
+		"delete": true,
+		"block": true,
+		"kick": true,
+		"warn": true,
+		"ban": true,
 		"allowed_kick": {
 			"member","admin","vip",
 		}
 	},
 	"developer": {
-		"mute": True,
-		"delete": True,
-		"block": True,
-		"code": True,
-		"kick": True,
-		"promote": True,
-		"warn": True,
-		"customize": True,
-		"ban": True,
+		"mute": true,
+		"delete": true,
+		"block": true,
+		"code": true,
+		"kick": true,
+		"promote": true,
+		"warn": true,
+		"customize": true,
+		"ban": true,
 		"allowed_kick": {
 			"member","admin","manager","vip","king"
 		}
 	},
 	"owner": {
-		"mute": True,
-		"delete": True,
-		"block": True,
-		"customize": True,
-		"warn": True,
-		"promote": True,
-		"ban": True,
-		"kick": True,
+		"mute": true,
+		"delete": true,
+		"block": true,
+		"customize": true,
+		"warn": true,
+		"promote": true,
+		"ban": true,
+		"kick": true,
 		"allowed_kick": {
 			"member","admin","manager","vip","king"
 		}
 	},
 	"vip": {
-		"delete": True,
-		"ban": True,
+		"delete": true,
+		"ban": true,
 		"allowed_kick": {}
 }}}
